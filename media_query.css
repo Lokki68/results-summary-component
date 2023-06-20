@@ -1,0 +1,22 @@
+@media screen and ( min-width: 768px) {
+  .container {
+    flex-direction: row;
+    width: 70%;
+    height: 450px;
+    margin: 50px auto;
+    border-radius: 25px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+  }
+
+  .result-container {
+    height: 100%;
+    border-radius: 25px;
+  }
+
+  .details-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+}
